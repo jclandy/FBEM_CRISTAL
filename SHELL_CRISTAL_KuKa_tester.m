@@ -76,10 +76,10 @@ bandwidth = 500*10^6; % antenna bandwidth (default = 320*10^6 Hz, e.g. Cryosat-2
 G_0 = 50.2; % peak antenna gain, dB, ka-band
 D_0 = 36.12; % synthetic beam gain, 36.12 dB SAR mode (30.6 dB SARIn mode)
 
-% gamma1 = 0.98*pi/180; % CRISTAL along-track term, ku-band
-% gamma2 = 1.22*pi/180; % CRISTAL across-track term, ku-band
-gamma1 = 0.37*pi/180; % CRISTAL along-track term, ka-band
-gamma2 = 0.51*pi/180; % CRISTAL across-track term, ka-band
+% gamma1 = 0.98/2*pi/180; % CRISTAL along-track term, ku-band
+% gamma2 = 1.22/2*pi/180; % CRISTAL across-track term, ku-band
+gamma1 = 0.37/2*pi/180; % CRISTAL along-track term, ka-band
+gamma2 = 0.51/2*pi/180; % CRISTAL across-track term, ka-band
 
 % Number of range bins
 N_tb = 100; % (default = 70)
